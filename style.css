@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("fondo.jfif"); 
+  background-size: cover;           
+  background-position: center; 
+  font-family: 'Courier New', monospace;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contenedor {
+  background-color:#f2d0eaee ;
+  padding: 40px 60px;
+  border-radius: 15px;
+}
+
+.reloj {
+  font-size: 80px;
+  letter-spacing: 3px;
+}
+
+.reloj span {
+  color: #11120fd8;
+  font-weight: bold;
+  display: inline-block;
+  min-width: 40px; 
+}
